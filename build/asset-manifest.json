@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/static/js/main.f5c0c905.chunk.js",
+    "main.js.map": "/static/js/main.f5c0c905.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d6321dfa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d6321dfa.js.map",
+    "static/js/2.d5afe933.chunk.js": "/static/js/2.d5afe933.chunk.js",
+    "static/js/2.d5afe933.chunk.js.map": "/static/js/2.d5afe933.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.d5afe933.chunk.js.LICENSE.txt": "/static/js/2.d5afe933.chunk.js.LICENSE.txt",
+    "static/media/hero-img-1.svg": "/static/media/hero-img-1.c3e591cd.svg",
+    "static/media/ja-posteer.jpeg": "/static/media/ja-posteer.f69f4c84.jpeg",
+    "static/media/portfel.svg": "/static/media/portfel.d85b1cff.svg",
+    "static/media/programista-html-css.svg": "/static/media/programista-html-css.02a6f2a4.svg",
+    "static/media/stack-html-css-js.svg": "/static/media/stack-html-css-js.3ecb8c75.svg",
+    "static/media/undraw_work_together_h63l.svg": "/static/media/undraw_work_together_h63l.922cfb5e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6321dfa.js",
+    "static/js/2.d5afe933.chunk.js",
+    "static/js/main.f5c0c905.chunk.js"
+  ]
+}
