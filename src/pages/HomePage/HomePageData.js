@@ -1,32 +1,25 @@
-
-//sekcja hero 
-
 export const homeObjHero = {
   primary: true,
   lightBg: false,
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Lepsza strona kodowania ...',
-  headline: 'Strony WWW dla Klientów Indywidualnych i dla Branż',
+  topLine: 'Dobra strona kodowania  >_',
+  headline: 'WWW i Aplikacje dla Klientów Indywidualnych i Firm',
   description:
-    'Co tu znajdziesz? Witryny, blogi i aplikacje dla klientów indywidualnych oraz ofertę stron stworzonych z myślą o wybranych branżach, opartą na autorskich szablonach.',
-  buttonLabel: 'POKAŻ OFERTĘ',
+    'Potrzebujesz strony, bloga lub aplikacji? Oferuję kompleksowe usługi – od projektowania, przez realizację programistyczną, aż po wdrożenie na produkcję. Zapewniam także hosting oraz doradztwo, aby Twoje projekty były dopracowane i funkcjonalne.',
+  buttonLabel: 'SPRAWDŹ OFERTĘ >_',
   anchor: '#s1',
   imgStart: '',
   img: require('../../images/hero-img-1.svg').default,
-  alt: 'Strony www dla branż',
+  alt: 'strony www',
   start: '',
   doNotShow: true,
   doNotShow1: true,
   doNotShow2: true,
   doNotShow3: true,
   doNotShow5: true,
-  
-
 };
-
-//sekcja oferta 1  
 
 export const homeObjOfer1 = {
   primary: true,
@@ -35,18 +28,17 @@ export const homeObjOfer1 = {
   lightText: false,
   lightTextDesc: false,
   opis: 'To jest opis',
-  topLine: 'Oferta indywidualna',
+  topLine: 'Websites >_',
   headline:
     'Potrzebujesz WWW albo blog?',
   description:
-    "Projektuję i koduję strony od zera. Odmładzam i modernizuję już istniejące witryny. Wdrażam projekty grafików. Mogę wysłać stronę na Twój serwer, albo możesz skorzystać z mojego hostingu. Strony i blogi stawiam w oparciu o Wordpress dzięki czemu możesz nimi samodzielnie zarządzać. Przeważnie pracuję z małym i średnim biznesem.",
+    "Tworzę strony internetowe od podstaw, a także odświeżam i modernizuję istniejące witryny. Realizuję projekty grafików, oferując pełne wsparcie – od kodowania po wdrożenie. Gotowe strony mogę umieścić na Twoim serwerze lub zapewnić hosting na mojej platformie. Tworzę strony i blogi oparte na WordPressie, co umożliwia samodzielne zarządzanie treścią.  Pracuję również w oparciu o React, dostarczając nowoczesne i dynamiczne rozwiązania webowe.",
   buttonLabel: 'ZOBACZ CENNIK',
   anchor: '#s2',
   imgStart: 'start',
   img: require('../../images/programista-html-css.svg').default,
-  alt: 'Strony www i blogi dla klientów indywidualnych',
+  alt: 'dtrony www i blogi',
   start: 'true',
-  
   doNotShow: false,
   doNotShow1: false,
   doNotShow2: true,
@@ -54,17 +46,13 @@ export const homeObjOfer1 = {
   doNotShow5: true,
   
   descLin1: 'Szybka realizacja',
-  descLin2: 'Strony wizytówki',
+  descLin2: 'Strony typu one page',
   descLin3: 'Projekty złożone z wielu podstron',
   descLin4: 'Serwer, domena, certyfikat SSL',
   descLin5: "Strona na Wordpress z CMS",
-  descLin6: "W pełni responsywna",
+  descLin6: "Witryny oparte na React.js",
   descLin7: "Integracja z social mediami"
-
-
 };
-
-//sekcja oferta 2 
 
 export const homeObjOfer2 = {
   primary: true,
@@ -72,34 +60,31 @@ export const homeObjOfer2 = {
   lightTopLine: false,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Oferta dla branż',
+  topLine: 'Aplikacje >_',
   headline:
-    'Strona z myślą o Twojej profesji',
+    'Rozwiązania aplikacyjne dostosowane do Twoich potrzeb',
   description:
-    "Szybka realizacja. Strona dostosowana do potzeb Twojej branży. Twoi klienci znajdą tutaj wszystkie informacje, których szukają. To strona zbudowana na autorskim szablonie, który przygotwałem z myślą o Twojej branży. Wystarczy, że zmienimy logo, kolory, zdjęcia i treści. ",
-  buttonLabel: 'WKRÓTCE',
+    "Tworzę aplikacje, które są idealnie dopasowane do Twoich wymagań. Zajmuję się całym procesem – od projektowania, przez kodowanie, aż po wdrożenie gotowego rozwiązania. Specjalizuję się w technologiach React oraz Java, dostarczając nowoczesne i efektywne rozwiązania dla różnych branż. Zapewniam również hosting, wsparcie techniczne oraz doradztwo, aby Twoja aplikacja działała sprawnie i była przygotowana na przyszłe wyzwania. Współpracuję głównie z małymi i średnimi firmami, dostarczając niezawodne i nowoczesne narzędzia wspierające ich rozwój.",
+  buttonLabel: 'ZOBACZ CENNIK',
+  anchor: '#s2',
   imgStart: '',
   img: require('../../images/undraw_work_together_h63l.svg').default,
-  alt: 'Strony i blogi dla wybranych branz',
+  alt: 'aplikacje firmowe',
   start: 'true',
   doNotShow: false,
   doNotShow1: true,
-  doNotShow2: true,
-  doNotShow3: false,
+  doNotShow2: false,
+  doNotShow3: true,
   doNotShow5: true,
-
-
   descLin1: 'Szybkie start, łatwe wdrożenie',
-  descLin2: 'Gotowy projekt, z możliwością personalizacji',
-  descLin3: 'Wystandaryzowany dla potrzeb Twojej profesji',
+  descLin2: 'Skalowalne rozwiązanie',
+  descLin3: 'Projekt oparty o potrzeb Twojej profesji',
   descLin4: 'Dodajesz tylko treść, zdjęcia i logo',
-  descLin5: "Serwer, domena, certyfikat SSL",
-  descLin6: "W pełni responsywna",
-  descLin7: "Strona łatwa do rozbudowy i modyfikacji"
+  descLin5: "Doradztwo, hosting, wsparcie techniczne",
+  descLin6: "Oparta o Ract i JAVA",
+  descLin7: "Aplikacja łatwa do rozbudowy i modyfikacji"
 
 };
-
-//sekcja oferta 3 
 
 export const homeObjOfer3 = {
   primary: true,
@@ -121,8 +106,6 @@ export const homeObjOfer3 = {
   doNotShow2: false,
   doNotShow3: true,
   doNotShow5: true,
-
-
   descLin1: 'Szybkie start, łatwe wdrożenie',
   descLin2: 'Gotowy projekt, z możliwością personalizacji',
   descLin3: 'Wystandaryzowany dla potrzeb Twojej profesji',
@@ -132,8 +115,6 @@ export const homeObjOfer3 = {
   descLin7: "Strona łatwa do rozbudowy i modyfikacji"
 
 };
-
-//sekcja zgarnij 500
 
 export const homeObj500 = {
   primary: true,
@@ -159,22 +140,24 @@ export const homeObj500 = {
  
 };
 
-//Sekcja o mnie 
-
 export const homeObjOmnie = {
   primary: false,
-  lightBg: true,
+  lightBg: false,
   lightTopLine: false,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: 'Nazywam się Tomasz Wojciechowski',
-  headline: 'Web developer i programista',
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Kim jestem?',
+  headline: 'Full Stack | Web developer',
   description:
-  'Działam jako freelancer budujący strony internetowe dla klientów indywidualnych i dla wybranych branż. W przeszłości zajmowałem się marketingiem internetowym, dziennikarstwem i komunikacją. Dlatego projektując i budując strony staram się myśleć - co? do kogo? i jak? - one mówią. Lubię bezpośredni kontakt z klientami. Dlatego pracuję przede wszystkim z małymi firmami i specjalistami, ale w przeszłości współpracowałem z dużymi, ogólnopolskimi organizacjami. Z moich klientów staram się zdjąć “konieczność myślenia” o jakichkolwiek technicznych aspektach ich strony albo bloga, oferując usługę od momentu wyboru hostingu po bezpieczeństwo i aktualizacje. Na co dzień buduję głównie w oparciu o przyjazną dla użytkowników platformę Wordpress. Stale rozwijam się programując na froncie w JavaScript (z wykorzystaniem React) i back-endzie używając Pythona. Odwiedź moje konto na LinkedIn.',
+  'Nazywam się Tomasz Wojciechowski. Programuję, tworzę aplikacje i strony internetowe od ponad sześciu lat. Na co dzień zajmuję się rozwojem i utrzymaniem dużych systemów aplikacyjnych, głównie dla sektora ubezpieczeniowego i bankowego. Równocześnie realizuję zlecenia dla klientów indywidualnych oraz małych i średnich firm z różnych branż. Mam na swoim koncie kilkadziesiąt udanych projektów.\n' +
+      '\n' +
+      'Projektując i budując strony oraz aplikacje, staram się zdejmować z klientów ciężar technicznych aspektów – od wyboru hostingu, przez kwestie bezpieczeństwa, aż po regularne aktualizacje. Tworzę intuicyjne rozwiązania oparte na WordPressie, które są przyjazne dla osób bez doświadczenia w kodowaniu. W bardziej złożonych projektach wykorzystuję technologie takie jak Java i React, dostarczając profesjonalne, nowoczesne aplikacje.\n' +
+      '\n' +
+      'Chcesz zobaczyć moje realizacje lub omówić swój projekt? Zapraszam do kontaktu!',
   buttonLabel: 'View Case Study',
   imgStart: '',
   img: require('../../images/ja-posteer.jpeg').default,
-  alt: 'insCODE Tomasz Wojciechowski Lepsza strona kodowania',
+  alt: 'goodSTACK',
   start: '',
   doNotShow: true,
   doNotShow1: true,
@@ -182,6 +165,5 @@ export const homeObjOmnie = {
   doNotShow3: true,
   doNotShow4: true,
   doNotShow5: false,
- 
 };
 

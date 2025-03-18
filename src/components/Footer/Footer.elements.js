@@ -1,16 +1,15 @@
 import styled from 'styled-components';
 import { FaMagento, FaPhoneSquareAlt, FaEnvelope, FaCheck } from 'react-icons/fa';
-// import { FaPhoneSquareAlt } from 'react-icons/fa';
-
 import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
-  background-color: #101522;
-  padding: 4rem 0 2rem 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    background-color: #fff;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #101522;
 `;
 
 export const FooterSubscription = styled.section`
@@ -21,7 +20,7 @@ export const FooterSubscription = styled.section`
   text-align: center;
   margin-bottom: 24px;
   padding: 24px;
-  color: #fff;
+  color: #101522;
 `;
 
 export const FooterSubHeading = styled.p`
@@ -52,7 +51,6 @@ export const FormInput = styled.input`
   border-radius: 2px;
   margin-right: 10px;
   outline: none;
-  border: none;
   font-size: 16px;
   border: 1px solid #fff;
 
@@ -75,15 +73,13 @@ export const FooterLinksContainer = styled.div`
   @media screen and (max-width: 820px) {
     padding-top: 32px;
     flex-direction: column;
-    
   }
 `;
 
 export const FooterLinksWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
-
-
+    
   @media screen and (max-width: 820px) {
     flex-direction: column;
     margin-left: 15%;
@@ -94,10 +90,9 @@ export const FooterLinksWrapper = styled.div`
 export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin: 16px;
   text-align: left;
-  /* width: 180px; */
   box-sizing: border-box;
   color: #fff;
 
@@ -105,14 +100,12 @@ export const FooterLinkItems = styled.div`
     margin: 0px;
     padding: 10px;
     width: 100%;
-
-
   }
 `;
 
 export const FooterLinkTitle = styled.h2`
-  margin-bottom: 20px;
-  
+    margin-bottom: 20px;
+    color: #101522;
 `;
 
 export const FooterLink = styled(Link)`
@@ -129,17 +122,15 @@ export const FooterLink = styled(Link)`
 `;
 
 export const FooterLinkExtern = styled.a`
-  color: #fff;
-  text-decoration: none;
-  margin-bottom: 0.7rem;
-  font-size: 16px;
-
-
-  &:hover {
-    color: #008000;
-    transition: 0.3s ease-out;
-  }
-
+    color: #101522;
+    text-decoration: none;
+    margin-bottom: 0.7rem;
+    font-size: 16px;
+    
+    &:hover {
+        color: #008000;
+        transition: 0.3s ease-out;
+    }
 `;
 
 export const FooterRow = styled.div`
@@ -207,7 +198,6 @@ export const ContactIconA = styled(FaCheck)`
   
 `;
 
-
 export const WebsiteRights = styled.small`
   color: #008000;
   margin-bottom: 16px;
@@ -215,14 +205,15 @@ export const WebsiteRights = styled.small`
 `;
 
 export const SocialIcons = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    gap: 28px;
 `;
 
 export const SocialIconLink = styled.a`
-  color: #fff;
+    color: #101522;
   font-size: 28px;
   
   &:hover {
