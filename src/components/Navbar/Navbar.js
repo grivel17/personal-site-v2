@@ -9,8 +9,14 @@ function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
-    const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
+    const handleClick = (e) => {
+        e.preventDefault();
+        setClick(!click)
+    };
+    const closeMobileMenu = (e) => {
+        e.preventDefault();
+        setClick(false)
+    };
 
     const showButton = () => {
         if (window.innerWidth <= 960) {
@@ -26,7 +32,8 @@ function Navbar() {
 
     window.addEventListener('resize', showButton);
 
-    const backTopFunc = () => {
+    const backTopFunc = (e) => {
+        e.preventDefault();
         window.scroll({
             top: 0,
             left: 0,

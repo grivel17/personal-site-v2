@@ -103,11 +103,9 @@ function InfoSection({
                                 <LiIcon doNotShow5={doNotShow5}/>
                             </SubIconAllLink>
                             <AnchorLink href={anchor}>
-                                <Link>
-                                    <Button big fontBig primary={primary} doNotShow4={doNotShow4}>
+                                    <Button onClik={(e) => e.preventDefault()} big fontBig primary={primary} doNotShow4={doNotShow4}>
                                         {buttonLabel}
                                     </Button>
-                                </Link>
                             </AnchorLink>
                         </TextWrapper>
                     </InfoColumn>

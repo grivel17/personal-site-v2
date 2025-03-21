@@ -1,3 +1,4 @@
+
 export const homeObjHero = {
   primary: true,
   lightBg: false,
@@ -156,7 +157,7 @@ export const homeObjOmnie = {
       'Chcesz zobaczyć moje realizacje lub omówić swój projekt? Zapraszam do kontaktu!',
   buttonLabel: 'View Case Study',
   imgStart: '',
-  img: require('../../images/ja-posteer.jpeg').default,
+  img: '',
   alt: 'goodSTACK',
   start: '',
   doNotShow: true,
