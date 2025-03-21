@@ -157,7 +157,7 @@ export const homeObjOmnie = {
       'Chcesz zobaczyć moje realizacje lub omówić swój projekt? Zapraszam do kontaktu!',
   buttonLabel: 'View Case Study',
   imgStart: '',
-  img: '',
+  img: require('../../images/tw_photo_cv_small.JPG'),
   alt: 'goodSTACK',
   start: '',
   doNotShow: true,
